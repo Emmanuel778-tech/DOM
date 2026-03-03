@@ -1,5 +1,5 @@
 body {
-    
+  background-color: black; 
 }
 
 img {
@@ -12,4 +12,16 @@ img {
 
 #level-display {
     
+}
+
+h1 {
+    color: white;
+    background-color: red;
+    border-radius: 25px;
+    padding: 25px;
+    display: inline-block;
+}
+
+#potato {
+    position: relative;
 }

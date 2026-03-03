@@ -4,10 +4,10 @@ console.log("Script started");
 let clicks = 0;
 
 //Variable to store the click counter h1
-let clickDisplay = document.getElementById("click-display");
+let clickdisplay = document.getElementById("clickdisplay");
 
 //set initial text for click counter
-clickDisplay.innerText = "Clicks: " + clicks;
+clickdisplay.innerText = "Clicks: " + clicks;
 
 //Called each time the image is clicked
 function handleClick() {
@@ -17,5 +17,9 @@ function handleClick() {
     clicks = clicks + 1;
 
     //Update Display
-    clickDisplay.innerText = "Clicks: " + clicks;
+    clickdisplay.innerText = "Clicks: " + clicks;
+
+    if(clicks == 10) {
+        alert("Level 1 Complete! ");
+    }
 }
